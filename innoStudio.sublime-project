@@ -1,0 +1,40 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sublime*"
+			],
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				"misc"
+			],
+			"path": "."
+		}
+	],
+	"ignored_packages":
+	[
+		"OmniSharp"
+	],
+	"ternjs":
+	{
+		"exclude":
+		[
+			"node_modules/**/*.js",
+			"**/*.min.js",
+			"**/build/*.js",
+			"misc/*.js",
+			"templates/*.js",
+			"js/shaders/**.js",
+			"js/postprocessing/**.js",
+			"**/*_grunt.js"
+		],
+		"libs":
+		[
+			"browser",
+			"jquery"
+		]
+	}
+}
